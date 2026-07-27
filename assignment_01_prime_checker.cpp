@@ -36,6 +36,8 @@
 
 #include <iostream>
 using namespace std;
+
+
 bool isprime(int number)
  { if (number < 2) 
    { return false; }
@@ -49,8 +51,8 @@ bool isprime(int number)
       cin >> number;
       if (isprime(number))
     { cout << number << " is a prime number."; }
-   else
+     else
    { cout << number << " is Not a prime number."; }
     return 0;
-    }
+  }
 
