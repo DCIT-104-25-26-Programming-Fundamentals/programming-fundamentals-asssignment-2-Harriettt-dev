@@ -66,9 +66,9 @@ int main()
 cout << "Enter student score (0-100): ";
 cin >> score;
    string grade = getGrade(score);
-if (grade == "")
+  if (grade == "")
     { cout << "Error: score must be between 0 and 100"; }
-else
+  else
     { cout << "Grade: " << grade; }
   return 0;
 }
